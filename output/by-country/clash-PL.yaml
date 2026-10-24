@@ -5,106 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 波兰 (Poland) 01 - xiaohe
-  server: 217.30.10.44
-  port: 9052
+  server: 92.118.150.146
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: jt2ekBNc9HuVtm2a
+  type: trojan
+  password: Trojan@82164024
+  sni: pl.tronsg.com
+  skip-cert-verify: false
 - name: 🇵🇱 波兰 (Poland) 02 - xiaohe
-  server: 217.30.10.44
-  port: 9076
+  server: site.teslamotor.site
+  port: 20001
   udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: S2zDyyPcmZN2h8EC
+  type: vless
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
 - name: 🇵🇱 波兰 (Poland) 03 - xiaohe
-  server: 217.30.10.44
-  port: 9006
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: FAdUvMJUq5vDgKEq
-- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
-  server: pl.golangwikito.cfd
-  port: 443
-  udp: true
-  type: vless
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: DsTVLCehsKvfFGtNZU5leKOLTlEp28qeifHYtRKOFwg
-    short-id: f8b695e5c59d028c
-  servername: pl.golangwikito.cfd
-  client-fingerprint: ''
-- name: 🇵🇱 波兰 (Poland) 05 - xiaohe
-  server: 31.77.13.19
-  port: 2063
-  udp: true
-  type: vless
-  uuid: b18d5990-96eb-4587-a386-7f8ef7591e6a
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-  servername: rusbid.de
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 06 - xiaohe
-  server: 144.31.101.196
-  port: 33891
-  udp: true
-  type: vless
-  uuid: 1c794e75-bcd4-4a65-9f69-ed0a10f33d60
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: HXXIkFRPeRpluXJ7SOoUGf9EOq4Lw-oJpvg1W0UPbEw
-    short-id: 5bd7b68ca4c04443
-  servername: browser.yandex.com
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 07 - xiaohe
-  server: admin.wwwinternetvideo.click
-  port: 443
-  udp: true
-  type: hysteria2
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  sni: admin.wwwinternetvideo.click
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 08 - xiaohe
-  server: lineartronic-iii.subaru-volga.com
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
-  tls: true
-  reality-opts:
-    public-key: HGQg7VrNlEhfOEjLR1LNeBZaVJg-J1f4DhxqOp-orjA
-    short-id: 6facda
-  servername: lineartronic-iii.subaru-volga.com
-  client-fingerprint: random
-- name: 🇵🇱 波兰 (Poland) 09 - xiaohe
-  server: 45.192.12.93
-  port: 443
-  udp: true
-  type: hysteria2
-  password: YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc
-  sni: admin.wwwinternetvideo.click
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 10 - xiaohe
-  server: 177.1.192.81
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5ac49a12-f275-44b4-b11d-26505f3f268e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JNr60Nnq_sdeAz5jd25bxNDx_c9CeYLu7DRbQH3P5xk
-    short-id: 85766a81
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 11 - xiaohe
   server: 54.37.131.126
   port: 80
   udp: true
@@ -117,65 +31,14 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇵🇱 波兰 (Poland) 12 - xiaohe
-  server: pl.flen-vpn.xyz
-  port: 8443
+- name: 🇵🇱 波兰 (Poland) 04 - xiaohe
+  server: scrap.halyvanedorogo.ru
+  port: 35076
   udp: true
-  type: vless
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-  tls: true
-  servername: pl.flen-vpn.xyz
-  skip-cert-verify: false
-- name: 🇵🇱 波兰 (Poland) 13 - xiaohe
-  server: 177.1.192.72
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: y3YCXTqEVks0nGfiSwJ43ol4pY69-mWFUZsdmveoVDM
-    short-id: 46455ff0
-  servername: addons.mozilla.org
-  client-fingerprint: randomized
-- name: 🇵🇱 波兰 (Poland) 14 - xiaohe
-  server: 82.118.22.161
-  port: 443
-  udp: true
-  type: vless
-  uuid: 05488656-d4bf-4634-8b2e-e4ff5a56c7e2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E
-    short-id: fa3ea655619a3e78
-  servername: www.cloudflare.com
-  client-fingerprint: ''
-- name: 🇵🇱 波兰 (Poland) 15 - xiaohe
-  server: 177.1.192.74
-  port: 443
-  udp: true
-  type: vless
-  uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: qC0g7Y0pwyLFTGAPG2zfZNuo64Cda695wdKgLU4KkF8
-    short-id: 770618b6
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇵🇱 波兰 (Poland) 16 - xiaohe
-  server: pl9.aiage.work
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6338c01a-310e-42c3-bf4f-2a20e161054b
-  flow: xtls-rprx-vision
-  tls: true
-  servername: pl9.aiage.work
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  type: hysteria2
+  password: b4c8ee9caa74b7ba0a61
+  sni: scrap.halyvanedorogo.ru
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -185,18 +48,6 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 02 - xiaohe
   - 🇵🇱 波兰 (Poland) 03 - xiaohe
   - 🇵🇱 波兰 (Poland) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇵🇱 波兰 (Poland) 07 - xiaohe
-  - 🇵🇱 波兰 (Poland) 08 - xiaohe
-  - 🇵🇱 波兰 (Poland) 09 - xiaohe
-  - 🇵🇱 波兰 (Poland) 10 - xiaohe
-  - 🇵🇱 波兰 (Poland) 11 - xiaohe
-  - 🇵🇱 波兰 (Poland) 12 - xiaohe
-  - 🇵🇱 波兰 (Poland) 13 - xiaohe
-  - 🇵🇱 波兰 (Poland) 14 - xiaohe
-  - 🇵🇱 波兰 (Poland) 15 - xiaohe
-  - 🇵🇱 波兰 (Poland) 16 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -206,17 +57,5 @@ proxy-groups:
   - 🇵🇱 波兰 (Poland) 02 - xiaohe
   - 🇵🇱 波兰 (Poland) 03 - xiaohe
   - 🇵🇱 波兰 (Poland) 04 - xiaohe
-  - 🇵🇱 波兰 (Poland) 05 - xiaohe
-  - 🇵🇱 波兰 (Poland) 06 - xiaohe
-  - 🇵🇱 波兰 (Poland) 07 - xiaohe
-  - 🇵🇱 波兰 (Poland) 08 - xiaohe
-  - 🇵🇱 波兰 (Poland) 09 - xiaohe
-  - 🇵🇱 波兰 (Poland) 10 - xiaohe
-  - 🇵🇱 波兰 (Poland) 11 - xiaohe
-  - 🇵🇱 波兰 (Poland) 12 - xiaohe
-  - 🇵🇱 波兰 (Poland) 13 - xiaohe
-  - 🇵🇱 波兰 (Poland) 14 - xiaohe
-  - 🇵🇱 波兰 (Poland) 15 - xiaohe
-  - 🇵🇱 波兰 (Poland) 16 - xiaohe
 rules:
 - MATCH,PROXIES
